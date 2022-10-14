@@ -49,7 +49,7 @@ class Form extends Component{
             placeholder="enter your email"
             onChangeText={email => {
                 this.setState({email})
-                console.log("hhdhbd",email)
+                console.log("
             }}
             keyboardtype={'email-address'}
             textinputstyle={style.inputText}
