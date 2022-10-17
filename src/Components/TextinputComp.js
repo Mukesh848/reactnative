@@ -6,9 +6,11 @@ const TextInputComp =({
     textinputstyle,
     placeholder,
     keyboardtype,
-    onChangeText = ()=>{}
+    onChangeText=() => {}
+
 }) =>{
-    return(
+    return
+    (
         <View style={{...textstyle.input,...textinputstyle}}>
             <TextInput 
             value={value}
@@ -17,8 +19,7 @@ const TextInputComp =({
             style={textstyle.container}
             keyboardType={keyboardtype}
             />
-            </View>
-        
+        </View>
     )
 }
 
@@ -30,12 +31,11 @@ const textstyle = StyleSheet.create({
         width:"100%",
         height:54,
         flexDirection:"row",
-        borderColor:"black",
-        borderWidth:1,
+        borderColor:"grey",
+        borderBottomWidth:1,
         paddingHorizontal:20,
         alignItems:'center',
         justifyContent:'center'
-
     }
 
 })

@@ -1,6 +1,6 @@
 import react ,{Component} from "react";
 import { StyleSheet, Text, View } from 'react-native';
-import Footer from "../end/Footer";
+import Footer from "../Footer/Footer";
 
 
 
